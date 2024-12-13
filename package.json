@@ -1,0 +1,25 @@
+{
+  "name": "frontend-repo",
+  "version": "1.0.0",
+  "description": "A code repo for front-end development (Akshay Kadam)",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aksh29021311/frontend-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aksh29021311/frontend-repo/issues"
+  },
+  "homepage": "https://github.com/Aksh29021311/frontend-repo#readme",
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4"
+  }
+}

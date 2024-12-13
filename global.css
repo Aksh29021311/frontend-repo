@@ -1,0 +1,92 @@
+/* Basic reset for margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a universal font family and line height */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style for headings */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Style for h1 specifically */
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style for paragraphs */
+p {
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* Add some padding to the main body */
+body {
+    padding: 20px;
+}
+
+/* Simple link styling */
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container class for a centered layout */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* Flexbox for a simple row layout */
+.row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Styling for individual columns */
+.col {
+    flex: 1;
+    min-width: 250px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Simple button styling */
+button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #218838;
+}
